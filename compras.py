@@ -26,7 +26,6 @@ while(i !=0):
         for n in productos:
             cod = int(input("Digite el código de producto a editar: "))
             if (cod == n['codigo']):
-                print(n['codigo'])
                 n['precio'] = input("Digite el nuevo precio del producto: ")
                 break
             else:
